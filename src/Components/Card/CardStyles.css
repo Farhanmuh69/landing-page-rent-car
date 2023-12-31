@@ -1,0 +1,60 @@
+
+.p-card{
+    text-align: center;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.2), 0 -5px 10px -2px rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+    cursor: pointer;
+    padding: 1rem .8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.p-image{
+    height: 200px;
+    overflow: hidden;
+    border-radius: 7px;
+}
+.p-image img{
+    width: 100%;
+    height: 100%;
+    transition: 0.3s ease-in-out;
+    border-radius: 7px;
+}
+.p-image:hover img{
+    transform: scale(1.3);
+}
+.p-card h4{
+    font-size: 1.3rem;
+    padding: .9rem 0 .2rem;
+}
+.p-card ul {
+    list-style-type: none; /* Menghapus dekorasi daftar */
+    padding: 0; /* Menghapus padding bawaan dari elemen <ul> */
+  }
+  
+  .p-card li {
+    margin-bottom: 8px; /* Jarak antara setiap elemen <li> */
+  }
+  .pesan-button {
+    align-self: flex-center;
+    margin-top: auto;
+    background-color: #B43737;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .pesan-button:hover {
+    background-color: #2980b9;
+  }
+
+@media screen and (max-width: 768px){
+    .p-card{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+}

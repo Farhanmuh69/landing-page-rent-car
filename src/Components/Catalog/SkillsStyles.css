@@ -1,0 +1,43 @@
+
+
+.catalog-container {
+    margin: 10rem 6rem;
+    color: #2a2a2a;
+}
+
+.catalog-container h1 {
+    font-size: 3rem;
+    padding-bottom: 3rem;
+}
+.catalog-container h3 {
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    color: red;
+}
+
+
+.catalog-card-container{
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+@media screen and (max-width: 768px) {
+    .catalog-container  {
+        margin: 5rem 2rem; 
+    }
+
+    .catalog-card-container{
+        grid-template-columns: 1fr;
+    }
+
+    .skillscard {
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        text-align: center; 
+        margin-bottom: 1.5rem; 
+    }
+}
+
+

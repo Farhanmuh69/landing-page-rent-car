@@ -1,0 +1,21 @@
+
+    .tombolwa {
+    position:fixed;
+    z-index:1000;
+    bottom:30px;
+    right: 30px;
+    flex-direction: column;
+    border: 1px #56aa71 solid;
+    background-color:#2f7e49;
+    width:175px;
+    padding:4px;
+    text-align:center;
+    margin:0;
+    border-radius: 5px;
+    margin:auto;
+    text-align:center;
+    float:none;
+    }
+    .floatwa a{
+    color:white;
+    }
